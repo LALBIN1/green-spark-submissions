@@ -1,114 +1,65 @@
-# 🌱 Green Spark – Hack for Impact (Elimination Round)
 
-Welcome to the **Green Spark: Hack for Impact** pre-event elimination round.  
-This is your gateway to qualify for the final offline hackathon by showcasing a working tech solution built under time pressure.
+# 🧼 CleanZone – Waste Reporting & Bin Locator
 
----
+## 📖 Project Overview
 
-## 🧠 Problem Statement
+**CleanZone** is a web-based platform built to promote a cleaner and smarter urban environment. It empowers citizens to actively participate in waste management by allowing them to report the type of waste they want to dispose of and view nearby public waste bin locations on a map.
 
-**How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?**
+The goal is to simplify waste reporting and disposal by:
+- Giving users an easy way to request pickup of waste from their location
+- Showing real-time locations of different types of public waste bins (plastic, organic, e-waste, etc.)
+- Reducing littering by providing quick disposal options
+- Assisting municipal bodies with smarter waste collection routing
 
-Focus areas may include:
-- Waste management  
-- Clean mobility  
-- Eco-awareness  
-- Sustainable lifestyle tools  
-
-Think user interfaces for awareness, habit tracking, community actions, or creative public engagement – all through front-end magic.
-
-> **NB:** Front-end only is enough. You can use any tools like HTML/CSS/JS, React, Tailwind, or even Figma for mockups.
+CleanZone runs entirely in the browser with no backend required for basic functionality, and it uses open-source tools to avoid paid APIs, making it lightweight, scalable, and 100% free to use or modify.
 
 ---
 
-## 🗓️ Timeline
+## 🚩 How the Problem Statement Is Addressed
 
-- **Date:** 2nd August 2025 (Saturday)  
-- **Time:** 6:00 PM – 9:00 PM IST (3 hours)  
-- **Mode:** Online  
-- **Team Size:** 2-4 member teams (as per official registration)
+**Problem:**  
+Urban environments suffer from waste mismanagement, illegal dumping, and lack of public awareness about where to properly dispose of different types of waste. Citizens often don’t know:
+- Where to find public waste bins
+- How to report their waste responsibly
+- Whether their local authorities can assist
 
----
+**CleanZone solves this by:**
+- Providing a **form-based system** where users can report the type of waste they have, along with their location and contact details
+- Displaying a **map with real-time bin locations**, categorized by waste type (organic, plastic, e-waste, etc.)
+- Using **color-coded markers** to make it easy to visually identify the right disposal point
+- Making everything **accessible and mobile-friendly**, so anyone can use it with no special app or account
+- Using **free open-source map tools** (Leaflet.js + OpenStreetMap), removing financial barriers to deployment
 
-## ✅ What You Need to Submit
-
-By 9:00 PM, your team must submit:
-
-- [ ] A **public GitHub repository**
-- [ ] A completed `README.md` using the format below
-- [ ] At least one **project screenshot** (`/assets/screenshot.png`)
-- [ ] A basic, functional working prototype
-
-- [ ] > 🟢 All submissions must be made through an **Issue** in _this repository_ using the provided issue template.
-      
-> 📌 All these are **mandatory** to qualify for evaluation.
+This approach reduces friction between the public and waste management systems and encourages greater civic responsibility.
 
 ---
 
-## 📂 Recommended Repo Structure
-
-your-project/ │ ├── README.md                 ← Project details in this format ├── /assets                   ← Screenshots or visual proofs │   └── screenshot.png ├── /src                      ← Your project code files └── LICENSE (optional)
-
----
-
-## 📝 README Template (Copy this into your repo)
-
-```markdown
-# 🚀 Green Spark Submission
-
-## Project Title
-Your project’s name
-
-## Problem Statement Addressed
-"How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?"
-
-## Project Overview
-A short explanation of your solution — what it does, how it works, and whom it benefits.
-
-## Key Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## GitHub Repository Link
-<!-- Paste your public repo link here -->
-
-## Team Members & Roles
-- Name 1 – Role
-- Name 2 – Role
-
-## Screenshot
-Include a screenshot of your project UI or working demo:
-
-```md
-![Screenshot](./assets/screenshot.png)
-
-Additional Notes (Optional)
-
-Any challenges faced, tech stack used, or future plans.
+## 🌍 Live Demo
+Coming soon... (or add your GitHub Pages/Netlify/Vercel link)
 
 ---
 
-## 📤 How to Submit
+## 📌 Features
 
-1. Complete your work before **9:00 PM IST**.
-2. Make sure your GitHub repository is public.
-3. Ensure all required files are pushed.
-4. Share the repository link via the assigned platform/medium.
+- 📝 **Waste Reporting Form**  
+  Users can submit the type of waste they have along with their name, contact, and location for pickup.
 
----
+- 🗺️ **Interactive Map**  
+  Uses **Leaflet.js + OpenStreetMap** to display nearby waste bin locations without needing any API keys.
 
-## 🧑‍⚖️ Judging Criteria
+- 📍 **Location Markers**  
+  Bins are color-coded by type (e.g., green for organic, orange for plastic, red for hazardous, etc.).
 
-Submissions will be evaluated on:
-
-- Relevance to the problem statement
-- Working functionality
-- Technical depth
-- Design & usability
-- Creativity and real-world impact
+- 📱 **Mobile-Friendly Design**  
+  Clean and responsive layout that works well on all devices.
 
 ---
-```
-Let’s innovate for a better tomorrow.  
-**Make it real. Make it green. Hack for impact.**
+
+## 🚀 TEAM MEMBERS 
+LALBIN BABY -LEAD
+ASIYA SHAJI- DESIGN
+AYUSH S - CO LEAD
+
+## GITHUB REPOSITORY LINK
+
+https://github.com/LALBIN1/clean-zone
