@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CleanZone – Waste Reporter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CleanZone – Waste Reporting System</h1>
+
+  <form id="wasteForm">
+    <label>Name: <input type="text" name="name" required></label><br>
+    <label>Contact: <input type="tel" name="contact" required></label><br>
+    <label>Address: <input type="text" name="address" required></label><br>
+
+    <label>Type of Waste:
+      <select name="type" required>
+        <option value="">--Select--</option>
+        <option value="biodegradable">Biodegradable</option>
+        <option value="plastic">Plastic</option>
+        <option value="e-waste">E-Waste</option>
+        <option value="hazardous">Hazardous</option>
+        <option value="bulk">Bulk</option>
+      </select>
+    </label><br>
+
+    <label>Upload Image: <input type="file" name="image"></label><br>
+
+    <button type="submit">Submit Request</button>
+  </form>
+
+  <h2>Find Nearest Waste Bin</h2>
+  <div id="map" style="height: 400px; width: 100%;"></div>
+
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CleanZone Waste Bin Locator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+  <h1>🗑️ CleanZone – Waste Bin Map</h1>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* Reset and Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d; /* deep black */
+  color: #f1c40f;       /* gold text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #f1c40f;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px #000;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  background-color: #1a1a1a;
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(241, 196, 15, 0.2);
+}
+
+form label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #f9e79f;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="file"],
+form select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: 1px solid #f1c40f;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #f1c40f;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #f39c12;
+  outline: none;
+  background-color: #333;
+}
+
+/* Button Style */
+button {
+  background-color: #f1c40f;
+  color: #0d0d0d;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4ac0d;
+}
+
+/* Map Section */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #f9e79f;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+#map {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(241, 196, 15, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
