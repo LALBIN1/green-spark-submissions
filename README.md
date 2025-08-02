@@ -12,9 +12,9 @@ Green Spark is the pre-event elimination round of **Hack for Impact**, designed 
 
 ---
 
-## 🧠 Tracks (Choose One)
-- **Track A:** Tech for Waste Reduction in Communities  
-- **Track B:** Digital Solutions for Greener Campuses
+## 🧩 Problem Statement  
+**Design a tech-driven solution that helps communities reduce waste and promote sustainable living practices.**  
+You may focus on improving awareness, encouraging eco-friendly habits, streamlining waste management, or developing digital tools that empower individuals and institutions to take greener actions in their daily lives.
 
 ---
 
