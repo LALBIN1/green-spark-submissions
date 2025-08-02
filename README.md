@@ -36,6 +36,8 @@ By 9:00 PM, your team must submit:
 - [ ] At least one **project screenshot** (`/assets/screenshot.png`)
 - [ ] A basic, functional working prototype
 
+- [ ] > 🟢 All submissions must be made through an **Issue** in _this repository_ using the provided issue template.
+      
 > 📌 All these are **mandatory** to qualify for evaluation.
 
 ---
