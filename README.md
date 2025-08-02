@@ -16,6 +16,10 @@ You're expected to build a functional prototype, not just an idea. Address real-
 - Carbon footprint tracking
 - Awareness and behavioral nudges
 
+- Think user interfaces for awareness, habit tracking, community actions, or creative public engagement – all through front-end magic.
+
+> **NB:** Front-end only is enough. You can use any tools like HTML/CSS/JS, React, Tailwind, or even Figma for mockups.
+
 ---
 
 ## 🗓️ Timeline
