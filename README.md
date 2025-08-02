@@ -26,7 +26,7 @@ Think user interfaces for awareness, habit tracking, community actions, or creat
 - **Date:** 2nd August 2025 (Saturday)  
 - **Time:** 6:00 PM – 9:00 PM IST (3 hours)  
 - **Mode:** Online  
-- **Team Size:** Solo or 2-member teams (as per official registration)
+- **Team Size:** 2-4 member teams (as per official registration)
 
 ---
 
