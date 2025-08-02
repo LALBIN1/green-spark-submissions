@@ -7,7 +7,17 @@ This is your gateway to qualify for the final offline hackathon by showcasing a 
 
 ## 🧠 Problem Statement
 
-Available at 6pm
+**How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?**
+
+Focus areas may include:
+- Waste management  
+- Clean mobility  
+- Eco-awareness  
+- Sustainable lifestyle tools  
+
+Think user interfaces for awareness, habit tracking, community actions, or creative public engagement – all through front-end magic.
+
+> **NB:** Front-end only is enough. You can use any tools like HTML/CSS/JS, React, Tailwind, or even Figma for mockups.
 
 ---
 
